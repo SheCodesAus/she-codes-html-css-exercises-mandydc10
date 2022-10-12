@@ -1,0 +1,26 @@
+header {
+	height: 70px;
+}
+
+header a {
+	display: inline-block;
+}
+
+header img {
+	height: 50px;
+	margin: 10px;
+	display: inline-block;
+}
+
+nav {
+	float: right;
+}
+
+#hero {
+    height: 50vh;
+    padding: 50px;
+}
+
+#header-text {
+    width: 60%;
+}

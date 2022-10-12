@@ -1,0 +1,16 @@
+CSS 
+Use html {} to set default font-family, size etc
+
+Media query sizing
+1440px for laptop
+1920px for desktop
+
+Image dimensions
+object-fit: cover; /* will keep picture dimensions as "normal", may result in cropping the image if the set CSS width and height do not allow the full image to display
+object-position: bottom; */ example of where the image sits/what will be viewable
+
+Font line-height
+1.5-1.7 rem is good for design reasons 
+Filter by fonts that have more than 3 variations (bold, italic, lighter etc)
+Noto Sans will support a lot of different languages
+Using link over import may be faster

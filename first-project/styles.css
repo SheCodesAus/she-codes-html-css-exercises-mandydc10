@@ -1,0 +1,115 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    float: right;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+header a {
+    display: inline-block;
+    text-decoration: underline;
+    margin-bottom: 0;
+    color: rgb(85, 85, 85);
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 1px solid rgb(194, 194, 194);
+    padding: 0 7px;
+    line-height: 2rem;
+    vertical-align: middle;
+}
+
+header a:hover {
+    color: #d13055;
+}
+
+p {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+#shecodes-logo {
+    display: flex;
+    margin-bottom: 0;
+}
+
+#search-icon {
+    width: 15px;
+    height: 15px;
+    justify-content: flex-end;
+}
+
+h1, h3 {
+    text-transform: uppercase;
+    color: #d13055;    
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+span {
+    color: #c8c4c4;
+}
+
+main {
+    background-color: #f2f2f2;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.cohort-container {
+    margin: 20px 80px;
+}
+
+.title {
+    text-align: center;
+    font-size: 22px;
+}
+
+.doggy-card {
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    max-width: 410px;
+    height: 450px;
+}
+
+.dog-pic {
+   width: 400px;
+   height: 250px;
+   object-fit: cover;
+   padding: 5px;
+}

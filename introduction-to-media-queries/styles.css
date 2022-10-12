@@ -30,3 +30,25 @@ div {
 }
 
 /*** Your code here ***/
+@media (min-width: 500px) {
+    div {
+        display: inline-block;
+        width: 44%;
+        font-size: 0.5rem;
+    }
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 900px) {
+    div {
+        display: inline-block;
+        width: 22%;
+        font-size: 2.5rem;
+    }
+
+    #div-4 {
+        background-color: pink;
+    }
+}
